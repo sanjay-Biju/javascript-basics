@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="txt_name" placeholder="Enter Your Name"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" value="male" id="txt_gender" >Male
+                <input type="radio" value="female" id="txt_gender" >Female
+            </td>
+        </tr>
+        <tr>
+            <td>Marital Status</td>
+            <td>
+                <input type="radio" id="txt_marital" value="single" >Single
+                <input type="radio" id="txt_marital" value="Married" >Married
+            </td>
+        </tr>
+        <tr >
+           <td colspan="2" align="center"><input type="button" id="check" value="Check Status" onclick="status()"></td>
+        </tr>
+        <tr>
+            <td  id="result"></td>
+        </tr>
+
+
+    </table>
+    <script src="status.js"></script>
+</body>
+
+</html>

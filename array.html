@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="2" align="center">ARRAY</td>
+        </tr>
+        <tr>
+            <td>Enter array elements</td>
+            <td><input type="text" id="elements" placeholder="Enter array elements"></td>
+        </tr>
+        <tr>
+            <td  align="center"><input type="button" id="btn_add" value="Add" onclick="add(document.getElementById('elements').value)"></td>
+            <td  align="center"><input type="button" id="btn_submit" value="submit" onclick="display()"></td>
+        </tr>
+        <tr>
+            <td id="result"></td>
+        </tr>
+    </table>
+</body>
+<script src="array.js"></script>
+</html>
